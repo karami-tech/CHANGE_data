@@ -283,7 +283,7 @@ END $$;
 ]
 
 def main(host: str = "localhost", port: int = 5432,
-         dbname: str = "cahngedb",
+         dbname: str = "changedb",
          user: str = "changeuser",
          password: str = "1change@"):
     conn = psycopg2.connect(host=host, port=port, dbname=dbname, user=user, password=password)

@@ -7,7 +7,7 @@ import paho.mqtt.client as mqtt
 MQTT_BROKER = "145.38.192.185"   # your server IP
 MQTT_PORT   = 1883
 MQTT_TOPIC  = "trailer/sensor-data"  # match Node-RED topic
-OUTPUT_FILE = "received_data.txt"
+OUTPUT_FILE = "received_data2.txt"
 
 def save_to_file(data, topic):
     """Append a decoded message to a text file."""
